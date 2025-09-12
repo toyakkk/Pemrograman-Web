@@ -1,0 +1,128 @@
+/* Umum */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #111;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/valorant.jpeg') center/cover no-repeat;
+  text-align: left;
+  padding: 10% 10%;
+  font-family: 'Russo One', sans-serif;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ff4655;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Navigasi */
+nav {
+  background: #6a0505;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff4655;
+}
+
+/* Section */
+section {
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+section h2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff4655;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* About image */
+#about .content img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about .content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff4655;
+}
+
+/* Contact section */
+#contact {
+  background: #222;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin: 40px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+#contact:hover {
+  background: #333;
+  transform: scale(1.02);
+}
+
+#contact a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact h2 {
+  font-family: 'Russo One', sans-serif;
+  font-size: 2.5rem;
+  color: #ff4655;
+}
+
+#contact:hover h2 {
+  color: #fff;
+}
+
+/* Top Agents content */
+section .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+section .content div {
+  max-width: 300px;
+  text-align: center;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
